@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Lista de Tarefas</h2>
+
+    <div class="input-area">
+        <input type="text" id="titulo" placeholder="Título">
+        <input type="text" id="descricao" placeholder="Descrição">
+        <button id="btnAdd">Adicionar</button>
+    </div>
+
+    <ul id="lista">
+        <!-- Exemplo de tarefa renderizada -->
+        <li class="concluida">
+            <div class="task">
+                <div>
+                    <b class="concluido">Tarefa Exemplo</b>
+                    <small>Descrição da tarefa</small>
+                </div>
+                <div class="acoes">
+                    <button class="edit">✏️</button>
+                    <button class="check">✔</button>
+                    <button class="delete">❌</button>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="task">
+                <div>
+                    <b class="pendente">Outra Tarefa</b>
+                    <small>Descrição</small>
+                </div>
+                <div class="acoes">
+                    <button class="edit">✏️</button>
+                    <button class="check">✔</button>
+                    <button class="delete">❌</button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

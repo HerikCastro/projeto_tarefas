@@ -1,0 +1,19 @@
+{
+  "name": "sistema-tarefas",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^30.5.1",
+    "express": "^4.22.1",
+    "mysql2": "^3.20.0"
+  },
+  "description": "https://github.com/HerikCastro/projeto_tarefas.git",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
